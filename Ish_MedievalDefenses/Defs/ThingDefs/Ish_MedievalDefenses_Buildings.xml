@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ish_MedievalDefenses_Parapet</defName>
+    <label>parapet</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Ish_MedievalDefenses_Parapet_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Sandbags</li> <!-- ??? -->
+      </linkFlags>
+    </graphicData>
+    <blueprintGraphicData>
+      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+    </blueprintGraphicData>
+    <uiIconPath>Things/Building/Linked/Ish_MedievalDefenses_Parapet_MenuIcon</uiIconPath>
+    <altitudeLayer>Waist</altitudeLayer>
+    <pathCost>40</pathCost>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.65</fillPercent> <!-- ??? -->
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <WorkToMake>150</WorkToMake>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <description>A waist-high stone wall built for defense.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>3</costStuffCount>
+    <rotatable>false</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <designationCategory>Security</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <damageMultipliers>
+      <li>
+	<damageDef>Bomb</damageDef>
+	<multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <designationHotKey>P</designationHotKey>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ish_MedievalDefenses_ChevalDeFrise</defName>
+    <label>cheval de frise</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Security/Ish_MedievalDefenses_ChevalDeFrise</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Waist</altitudeLayer>
+    <pathCost>60</pathCost>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.35</fillPercent> <!-- ??? -->
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Beauty>-10</Beauty>
+      <WorkToMake>150</WorkToMake>
+      <Flammability>1</Flammability>
+    </statBases>
+    <Size>(2,1)</Size>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <description>A defensive barier made of sharpened sticks; weak but slow to climb over.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+    <repairEffect>ConstructWood</repairEffect>
+    <rotatable>true</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <designationCategory>Security</designationCategory>
+    <designationHotKey>C</designationHotKey>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ish_MedievalDefenses_StampedEarthWall</defName>
+    <label>stamped earth wall</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <description>A defenses wall made of compacted earth. It requires no additional resources to build and is quite strong, but it takes a lot of work.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/Rock_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(64,55,48)</color>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+	<li>Wall</li>
+	<li>Rock</li>
+      </linkFlags>
+    </graphicData>
+    <blueprintGraphicData>
+      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+    </blueprintGraphicData>
+    <uiIconPath>Things/Building/Linked/Ish_MedievalDefenses_StampedEarthWall_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Flammability>0</Flammability>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <building>
+      <isInert>true</isInert>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <damageMultipliers>
+      <li>
+	<damageDef>Bomb</damageDef>
+	<multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <designationHotKey>E</designationHotKey>
+  </ThingDef>
+
+</ThingDefs>
