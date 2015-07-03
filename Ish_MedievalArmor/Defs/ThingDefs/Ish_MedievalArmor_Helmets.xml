@@ -210,7 +210,7 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
       <Insulation_Cold>-10</Insulation_Cold>
-      <Insulation_Heat>-10</Insulation_Heat>
+      <Insulation_Heat>-3</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.1</MoveSpeed>

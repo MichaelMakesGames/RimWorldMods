@@ -93,7 +93,7 @@
       <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
       <Insulation_Cold>-15</Insulation_Cold>
-      <Insulation_Heat>-10</Insulation_Heat>
+      <Insulation_Heat>-2</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.05</MoveSpeed>
@@ -127,12 +127,12 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Ish_MedievalArmor_Hauberk/Ish_MedievalArmor_Hauberk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>200</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>50000</WorkToMake>
+      <WorkToMake>100000</WorkToMake>
       <MaxHitPoints>250</MaxHitPoints>
       <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
@@ -170,17 +170,17 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Ish_MedievalArmor_Plate/Ish_MedievalArmor_Plate</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>200</costStuffCount>
+    <costStuffCount>400</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>100000</WorkToMake>
+      <WorkToMake>150000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
       <Insulation_Cold>-15</Insulation_Cold>
-      <Insulation_Heat>-10</Insulation_Heat>
+      <Insulation_Heat>-5</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>
