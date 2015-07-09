@@ -175,6 +175,9 @@
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
