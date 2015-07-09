@@ -59,7 +59,6 @@
 	<multiplier>2</multiplier>
       </li>
     </damageMultipliers>
-    <designationHotKey>P</designationHotKey>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -96,7 +95,6 @@
     <rotatable>true</rotatable>
     <neverMultiSelect>true</neverMultiSelect>
     <designationCategory>Security</designationCategory>
-    <designationHotKey>C</designationHotKey>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -150,7 +148,6 @@
 	<multiplier>2</multiplier>
       </li>
     </damageMultipliers>
-    <designationHotKey>E</designationHotKey>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -201,7 +198,6 @@
       <turretBurstCooldownTicks>400</turretBurstCooldownTicks>
       <turretTopgraphicPath>Things/Building/Security/Ish_MedievalDefenses_Ballista_Top</turretTopgraphicPath>
     </building>
-    <designationHotKey>B</designationHotKey>
   </ThingDef>
   
 </ThingDefs>
