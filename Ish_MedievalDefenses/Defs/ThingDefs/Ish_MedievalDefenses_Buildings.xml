@@ -118,8 +118,8 @@
     </blueprintGraphicData>
     <uiIconPath>Things/Building/Linked/Ish_MedievalDefenses_StampedEarthWall_MenuIcon</uiIconPath>
     <statBases>
-      <MaxHitPoints>1000</MaxHitPoints>
-      <WorkToMake>2500</WorkToMake>
+      <MaxHitPoints>800</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
       <Flammability>0</Flammability>
     </statBases>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
