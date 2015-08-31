@@ -4,7 +4,7 @@
     <defName>Ish_MedievalNobleHouse_Guard</defName>
     <label>guard</label>
     <race>Human</race>
-    <pointsCost>36</pointsCost>
+    <combatPower>36</combatPower>
     <defaultFactionType>Ish_MedievalNobleHouse_NobleHouse</defaultFactionType>
     <baseRecruitDifficulty>60</baseRecruitDifficulty>
     <backstoryCategory>Civil</backstoryCategory>
@@ -31,14 +31,14 @@
       <li>NeolithicRanged</li>
       <li>Melee</li>
     </weaponTags>
-    <artificialBodyPartsMoney>
+    <techHediffsMoney>
       <min>0</min>
       <max>35</max>
-    </artificialBodyPartsMoney>
-    <artificialBodyPartsTags>
+    </techHediffsMoney>
+    <techHediffsTags>
       <li>Poor</li>
-    </artificialBodyPartsTags>
-    <artificialBodyPartsChance>0.1</artificialBodyPartsChance>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
     <inventoryOptions>
       <skipChance>0.9</skipChance>
       <subOptionsChooseOne>
@@ -63,7 +63,7 @@
     <defName>Ish_MedievalNobleHouse_Squire</defName>
     <label>squire</label>
     <race>Human</race>
-    <pointsCost>56</pointsCost>
+    <combatPower>56</combatPower>
     <defaultFactionType>Ish_MedievalNobleHouse_NobleHouse</defaultFactionType>
     <baseRecruitDifficulty>60</baseRecruitDifficulty>
     <backstoryCategory>Squire</backstoryCategory>
@@ -89,14 +89,14 @@
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <artificialBodyPartsMoney>
+    <techHediffsMoney>
       <min>0</min>
       <max>35</max>
-    </artificialBodyPartsMoney>
-    <artificialBodyPartsTags>
+    </techHediffsMoney>
+    <techHediffsTags>
       <li>Poor</li>
-    </artificialBodyPartsTags>
-    <artificialBodyPartsChance>0.1</artificialBodyPartsChance>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
     <inventoryOptions>
       <skipChance>0.9</skipChance>
       <subOptionsChooseOne>
@@ -121,7 +121,7 @@
     <defName>Ish_MedievalNobleHouse_ManAtArms</defName>
     <label>man-at-arms</label>
     <race>Human</race>
-    <pointsCost>70</pointsCost>
+    <combatPower>70</combatPower>
     <defaultFactionType>Ish_MedievalNobleHouse_NobleHouse</defaultFactionType>
     <baseRecruitDifficulty>80</baseRecruitDifficulty>
     <backstoryCategory>Raider</backstoryCategory>
@@ -147,14 +147,14 @@
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <artificialBodyPartsMoney>
+    <techHediffsMoney>
       <min>0</min>
       <max>35</max>
-    </artificialBodyPartsMoney>
-    <artificialBodyPartsTags>
+    </techHediffsMoney>
+    <techHediffsTags>
       <li>Poor</li>
-    </artificialBodyPartsTags>
-    <artificialBodyPartsChance>0.1</artificialBodyPartsChance>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
     <inventoryOptions>
       <skipChance>0.8</skipChance>
       <subOptionsChooseOne>
@@ -179,7 +179,7 @@
     <defName>Ish_MedievalNobleHouse_Knight</defName>
     <label>knight</label>
     <race>Human</race>
-    <pointsCost>135</pointsCost>
+    <combatPower>135</combatPower>
     <defaultFactionType>Ish_MedievalNobleHouse_NobleHouse</defaultFactionType>
     <baseRecruitDifficulty>70</baseRecruitDifficulty>
     <backstoryCategory>Raider</backstoryCategory>
@@ -206,14 +206,14 @@
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <artificialBodyPartsMoney>
+    <techHediffsMoney>
       <min>0</min>
       <max>35</max>
-    </artificialBodyPartsMoney>
-    <artificialBodyPartsTags>
+    </techHediffsMoney>
+    <techHediffsTags>
       <li>Poor</li>
-    </artificialBodyPartsTags>
-    <artificialBodyPartsChance>0.1</artificialBodyPartsChance>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
     <inventoryOptions>
       <skipChance>0.8</skipChance>
       <subOptionsChooseOne>
