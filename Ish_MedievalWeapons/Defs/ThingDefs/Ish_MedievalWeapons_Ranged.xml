@@ -22,7 +22,7 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Midworld</techLevel>
     <weaponTags>
       <!--<li>Neolithic</li>-->
     </weaponTags>
@@ -154,7 +154,6 @@
       <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>NeolithicRanged</li>
       <li>MedievalRanged</li>
     </weaponTags>
     <verbs>
