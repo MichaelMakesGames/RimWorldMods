@@ -130,6 +130,8 @@
     <coversFloor>true</coversFloor>
     <placingDraggableDimensions>1</placingDraggableDimensions>
     <tickerType>Never</tickerType>
+    <constructEffect>ConstructWood</constructEffect>
+    <repairEffect>ConstructWood</repairEffect>
     <rotatable>false</rotatable>
     <selectable>true</selectable>
     <neverMultiSelect>true</neverMultiSelect>
