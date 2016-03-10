@@ -58,7 +58,7 @@
       <recipeUsers>
 	<li>TableSmithing</li>
       </recipeUsers>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <defaultIngredientFilter>
 	<categories>
 	  <li>Root</li>
