@@ -156,38 +156,6 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>Ish_MedievalWeapons_Katana</defName>
-    <label>katana</label>
-    <description>The sword of the ancient samurai, still a fearsome weapon in the hands of the skilled.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Ish_MedievalWeapons_Katana</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
-    <costStuffCount>200</costStuffCount>
-    <statBases>
-      <WorkToMake>100000</WorkToMake>
-      <MeleeWeapon_DamageAmount>17</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.95</MeleeWeapon_Cooldown>
-    </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
-    </verbs>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
     <defName>Ish_MedievalWeapons_Partisan</defName>
     <label>partisan</label>
     <description>A spear with extra blade sticking out of the end to help deflect incoming blows.</description>
