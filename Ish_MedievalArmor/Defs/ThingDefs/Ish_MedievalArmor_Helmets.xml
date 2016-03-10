@@ -82,6 +82,7 @@
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
+      <li>Leathery</li>
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
